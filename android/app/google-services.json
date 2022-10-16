@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "391835011513",
+    "project_id": "i-am-volunteer",
+    "storage_bucket": "i-am-volunteer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391835011513:android:6d6b7e093e5e231fc14e68",
+        "android_client_info": {
+          "package_name": "com.mania.i_am_volunteer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391835011513-q8jsnlahqt5dgv79ns7ce3gpn93h8ss9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvLqjLMAZodQ9-UMjM3g06gg1UophDxq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391835011513-q8jsnlahqt5dgv79ns7ce3gpn93h8ss9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
