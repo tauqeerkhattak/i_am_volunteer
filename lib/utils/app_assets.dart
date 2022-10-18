@@ -10,4 +10,5 @@ class AppAssets {
   static const String eye = '${_image}eye.png';
   static const String mail = '${_image}mail.png';
   static const String tinyEllipse = '${_image}tiny_ellipse.png';
+  static const String cornerButton = '${_image}corner_button.png';
 }

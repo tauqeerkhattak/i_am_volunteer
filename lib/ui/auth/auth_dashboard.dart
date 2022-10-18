@@ -3,7 +3,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:i_am_volunteer/routes/app_routes.dart';
-import 'package:i_am_volunteer/utils/app_colors.dart';
 import 'package:i_am_volunteer/utils/ui_utils.dart';
 
 import '../../controllers/auth_controller.dart';
@@ -76,7 +75,11 @@ class AuthDashboard extends StatelessWidget {
                     CustomButton(
                       label: 'Register',
                       width: Get.width * 0.4,
-                      onTap: () {},
+                      onTap: () {
+                        Get.toNamed(
+                          AppRoutes.register,
+                        );
+                      },
                     ),
                   ],
                 ),

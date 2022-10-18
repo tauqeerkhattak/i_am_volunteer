@@ -8,6 +8,8 @@ class CustomText extends StatelessWidget {
   final FontWeight? weight;
   final String? family;
   final Color? color;
+  final bool? enableUnderline;
+
   const CustomText({
     super.key,
     required this.text,
@@ -17,6 +19,7 @@ class CustomText extends StatelessWidget {
     this.color,
     this.weight,
     this.family,
+    this.enableUnderline = false,
   });
 
   @override
@@ -26,6 +29,7 @@ class CustomText extends StatelessWidget {
       style: GoogleFonts.getFont(
         family ?? 'Inter',
         fontSize: fontSize,
+        decoration: enableUnderline! ? TextDecoration.underline : null,
         letterSpacing: spacing,
         fontWeight: weight,
         color: color,
